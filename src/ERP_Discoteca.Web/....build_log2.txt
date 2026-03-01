@@ -1,0 +1,14 @@
+  Determinando los proyectos que se van a restaurar...
+  Todos los proyectos están actualizados para la restauración.
+  ERP_Discoteca.Core -> C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\bin\Debug\net9.0\ERP_Discoteca.Core.dll
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Web\Program.cs(22,9): error CS1061: "WebApplication" no contiene una definición para "MapScalarApiReference" ni un método de extensión accesible "MapScalarApiReference" que acepte un primer argumento del tipo "WebApplication" (¿falta alguna directiva using o una referencia de ensamblado?) [C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Web\ERP_Discoteca.Web.csproj]
+
+ERROR al compilar.
+
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Web\Program.cs(22,9): error CS1061: "WebApplication" no contiene una definición para "MapScalarApiReference" ni un método de extensión accesible "MapScalarApiReference" que acepte un primer argumento del tipo "WebApplication" (¿falta alguna directiva using o una referencia de ensamblado?) [C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Web\ERP_Discoteca.Web.csproj]
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:01.38
+
+Hay actualizaciones de carga de trabajo disponibles. Ejecute "dotnet workload list" para obtener más información.

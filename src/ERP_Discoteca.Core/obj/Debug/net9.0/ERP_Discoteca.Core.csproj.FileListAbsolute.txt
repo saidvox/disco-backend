@@ -1,0 +1,12 @@
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\ERP_Discoteca.Core.csproj.AssemblyReference.cache
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\ERP_Discoteca.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\ERP_Discoteca.Core.AssemblyInfoInputs.cache
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\ERP_Discoteca.Core.AssemblyInfo.cs
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\ERP_Discoteca.Core.csproj.CoreCompileInputs.cache
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\bin\Debug\net9.0\ERP_Discoteca.Core.deps.json
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\bin\Debug\net9.0\ERP_Discoteca.Core.dll
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\bin\Debug\net9.0\ERP_Discoteca.Core.pdb
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\ERP_Discoteca.Core.dll
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\refint\ERP_Discoteca.Core.dll
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\ERP_Discoteca.Core.pdb
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\ref\ERP_Discoteca.Core.dll
