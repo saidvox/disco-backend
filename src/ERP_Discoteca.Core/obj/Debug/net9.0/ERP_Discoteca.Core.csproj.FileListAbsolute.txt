@@ -10,3 +10,4 @@ C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\ERP
 C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\refint\ERP_Discoteca.Core.dll
 C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\ERP_Discoteca.Core.pdb
 C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\ref\ERP_Discoteca.Core.dll
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Core\obj\Debug\net9.0\ERP_Discoteca.Core.sourcelink.json

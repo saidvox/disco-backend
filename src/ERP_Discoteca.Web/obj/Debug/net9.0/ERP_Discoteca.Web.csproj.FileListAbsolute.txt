@@ -41,3 +41,4 @@ C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Web\obj\Debug\net9.0\ERP_
 C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Web\obj\Debug\net9.0\ERP_Discoteca.Web.genruntimeconfig.cache
 C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Web\obj\Debug\net9.0\ref\ERP_Discoteca.Web.dll
 C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Web\bin\Debug\net9.0\Scalar.AspNetCore.dll
+C:\Users\ivoox\Desktop\ERP_Discoteca\src\ERP_Discoteca.Web\obj\Debug\net9.0\ERP_Discoteca.Web.sourcelink.json

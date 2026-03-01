@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERP Discoteca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b05e8c1f1ffa6ef9811f53a73e3b139a55da50b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERP Discoteca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERP_Discoteca.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

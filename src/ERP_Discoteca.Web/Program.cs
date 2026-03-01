@@ -38,6 +38,14 @@ app.MapGet("/api/test/info", () => Results.Ok(new {
 }))
 .WithName("TestInfo");
 
+// Nuevo endpoint interactivo de prueba
+app.MapGet("/api/test/random", () => Results.Ok(new {
+    id = Guid.NewGuid(),
+    value = Random.Shared.Next(1, 1000),
+    timestamp = DateTime.UtcNow
+}))
+.WithName("TestRandom");
+
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
