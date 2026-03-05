@@ -1,6 +1,8 @@
 using Exceptionless;
 using Exceptionless.Models;
 using Scalar.AspNetCore;
+using Microsoft.AspNetCore.OpenApi;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,8 +11,26 @@ builder.Services.AddExceptionless(c => c.ReadFromConfiguration(builder.Configura
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+builder.Services.AddOpenApi(options =>
+{
+    options.AddDocumentTransformer((document, context, cancellationToken) =>
+    {
+        document.Servers = [new OpenApiServer { Url = "https://api.saidvox.dev" }];
+        return Task.CompletedTask;
+    });
+});
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        policy =>
+        {
+            policy.AllowAnyOrigin()
+                  .AllowAnyMethod()
+                  .AllowAnyHeader();
+        });
+});
 
 var app = builder.Build();
 
@@ -22,10 +42,11 @@ if (app.Environment.IsDevelopment())
     // Development specific features can go here
 }
 
+app.UseHttpsRedirection();
+app.UseCors("AllowAll");
+
 app.MapOpenApi();
 app.MapScalarApiReference();
-
-app.UseHttpsRedirection();
 
 // Test Endpoints
 app.MapGet("/api/test/ping", () => Results.Ok(new { message = "pong", timestamp = DateTime.UtcNow }))
