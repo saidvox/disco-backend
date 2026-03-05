@@ -46,6 +46,14 @@ app.MapGet("/api/test/random", () => Results.Ok(new {
 }))
 .WithName("TestRandom");
 
+// Endpoint de estado de salud (Health Check)
+app.MapGet("/api/test/health", () => Results.Ok(new {
+    status = "healthy",
+    checks = new[] { "database", "cache", "external_api" },
+    timestamp = DateTime.UtcNow
+}))
+.WithName("TestHealth");
+
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
