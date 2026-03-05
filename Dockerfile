@@ -2,7 +2,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0-alpine AS build
 WORKDIR /src
 
-# Copia los archivos de proyecto y restaura dependencias (esto cachea las capas de nuget)
+# Copia los archivos de proyecto y restaura dependencias
 COPY ["src/ERP_Discoteca.Web/ERP_Discoteca.Web.csproj", "src/ERP_Discoteca.Web/"]
 COPY ["src/ERP_Discoteca.Core/ERP_Discoteca.Core.csproj", "src/ERP_Discoteca.Core/"]
 RUN dotnet restore "src/ERP_Discoteca.Web/ERP_Discoteca.Web.csproj"
@@ -20,12 +20,12 @@ RUN dotnet publish "ERP_Discoteca.Web.csproj" -c Release -o /app/publish /p:UseA
 FROM mcr.microsoft.com/dotnet/aspnet:9.0-alpine AS final
 WORKDIR /app
 
-# Exponer el puerto 8080 explícitamente y configurar el entorno
-EXPOSE 8080
+# --- CAMBIO AQUÍ: Exponer el puerto 5186 ---
+EXPOSE 5186
 
-# Configurar kestrel para escuchar en 0.0.0.0 puerto 8080 (esencial para Docker web apps)
-ENV ASPNETCORE_URLS=http://0.0.0.0:8080
-ENV ASPNETCORE_HTTP_PORTS=8080
+# --- CAMBIO AQUÍ: Configurar kestrel para el puerto 5186 ---
+ENV ASPNETCORE_URLS=http://0.0.0.0:5186
+ENV ASPNETCORE_HTTP_PORTS=5186
 ENV ASPNETCORE_ENVIRONMENT=Production
 
 # Por seguridad adicional en la imagen Final, corremos como usuario regular "app" en alpine
